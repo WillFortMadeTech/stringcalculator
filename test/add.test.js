@@ -5,3 +5,7 @@ import {add} from "../src/add.js";
 test('empty string returns 0', () => {
   assert.equal(add(''), '0');
 });
+
+test('1 returns 1', () => {
+  assert.equal(add('1'), '1');
+});
