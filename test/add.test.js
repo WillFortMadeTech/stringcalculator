@@ -9,3 +9,7 @@ test('empty string returns 0', () => {
 test('1 returns 1', () => {
   assert.equal(add('1'), '1');
 });
+
+test('2 returns 2', () => {
+  assert.equal(add('2'), '2');
+});
