@@ -11,6 +11,7 @@ const testCases = [
   ['2', '2'],
   ['369', '369'],
   ['1.1,2.2', '3.3'],
+  ['1.111,2.222', '3.333']
 ];
 
 for (const [input, expected] of testCases) {
