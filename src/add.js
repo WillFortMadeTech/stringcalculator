@@ -1,10 +1,11 @@
 export function add(str) {
-  const stringArr = str.split(',');
+
   let finalVal = 0;
   
-  for (let string of stringArr){
-    finalVal = finalVal + Number(string);
+  for (let string of str.split(',')){
+    finalVal += Number(string);
   }
+
   return (Math.round(finalVal*100)/100).toString();
 
 
