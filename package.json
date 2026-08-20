@@ -1,0 +1,11 @@
+{
+  "name": "stringcalculator",
+  "version": "1.0.0",
+  "description": "A playground for practising test-driven development in JavaScript.",
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "test:watch": "node --test --watch"
+  },
+  "license": "MIT"
+}
