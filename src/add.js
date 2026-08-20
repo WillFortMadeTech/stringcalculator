@@ -2,5 +2,5 @@ export function add(str) {
   if (str === ''){
     return '0';
   }
-  return '1';
+  return str;
 }
