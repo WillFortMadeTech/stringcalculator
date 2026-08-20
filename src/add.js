@@ -1,3 +1,6 @@
 export function add(str) {
-  return '0';
+  if (str === ''){
+    return '0';
+  }
+  return '1';
 }
