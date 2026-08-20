@@ -1,8 +1,4 @@
 export function add(str) {
-  if (str === ''){
-    return '0';
-  }
-
   const stringArr = str.split(',');
   let finalVal = 0;
   
