@@ -6,10 +6,14 @@ test('empty string returns 0', () => {
   assert.equal(add(''), '0');
 });
 
-test('1 returns 1', () => {
-  assert.equal(add('1'), '1');
-});
+const testCases = [
+  ['1', '1'],
+  ['2', '2'],
+  ['369', '369'],
+];
 
-test('2 returns 2', () => {
-  assert.equal(add('2'), '2');
-});
+for (const [input, expected] of testCases) {
+  test(`add with ${input} returns ${expected}`, () => {
+    assert.equal(add(input), expected);
+  });
+}
